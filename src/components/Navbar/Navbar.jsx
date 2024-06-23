@@ -7,17 +7,17 @@ import LoadingBar from '../LoadingBar/LoadingBar';
 // import LoginButton from '../Buttons/LoginButton';
 // import SignupButton from '../Buttons/SignupButton';
 
-const useWindowWidth = () => {
-    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+// const useWindowWidth = () => {
+//     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   
-    useEffect(() => {
-      const handleResize = () => setWindowWidth(window.innerWidth);
-      window.addEventListener('resize', handleResize);
-      return () => window.removeEventListener('resize', handleResize);
-    }, []);
+//     useEffect(() => {
+//       const handleResize = () => setWindowWidth(window.innerWidth);
+//       window.addEventListener('resize', handleResize);
+//       return () => window.removeEventListener('resize', handleResize);
+//     }, []);
 
-    return windowWidth;
-  };
+//     return windowWidth;
+//   };
 
 const Navbar = () => {
     const [click, setClick] = useState(false);
