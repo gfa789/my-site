@@ -2,7 +2,7 @@ import React from 'react';
 import images from "../../constants/images";
 import "./Header.css";
 import {FaPaperPlane} from 'react-icons/fa';
-import {useState, useEffect, useRef} from 'react';
+// import {useState, useEffect, useRef} from 'react';
 // import Email from "./Email";
 // import images from "../../assets/images";
 

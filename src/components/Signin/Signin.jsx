@@ -18,7 +18,7 @@ const Signin = () => {
     // Handle sign-in logic here (e.g., API call, validation, etc.)
     console.log('Email:', email);
     console.log('Password:', password);
-    const message = {email, password};
+    // const message = {email, password};
     fetch('http://localhost:8000/api/auth', {
       method: 'GET',
       headers: {

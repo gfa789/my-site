@@ -2,10 +2,10 @@ import React, {useState, useEffect, useRef} from 'react';
 // import images from "../../assets/images";
 import "./Navbar.css";
 import {FaBars, FaTimes} from "react-icons/fa";
-import {CgProfile} from "react-icons/cg";
+// import {CgProfile} from "react-icons/cg";
 import LoadingBar from '../LoadingBar/LoadingBar';
-import LoginButton from '../Buttons/LoginButton';
-import SignupButton from '../Buttons/SignupButton';
+// import LoginButton from '../Buttons/LoginButton';
+// import SignupButton from '../Buttons/SignupButton';
 
 const useWindowWidth = () => {
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -22,10 +22,10 @@ const useWindowWidth = () => {
 const Navbar = () => {
     const [click, setClick] = useState(false);
     const [theme, setTheme] = useState('light')
-    const [bigwidth, setBigWidth] = useState(true);
+    // const [bigwidth, setBigWidth] = useState(true);
 
-    const windowWidth = useWindowWidth();
-    const isWidthGreaterThanX = windowWidth < 992;
+    // const windowWidth = useWindowWidth();
+    // const isWidthGreaterThanX = windowWidth < 992;
     // if (windowWidth < 992){
     //     setClick(false);}
 

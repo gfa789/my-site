@@ -1,6 +1,6 @@
 import './App.css';
 import {React} from 'react';
-import {Route, Routes, RouterProvider, createBrowserRouter, createRoutesFromElements} from 'react-router-dom';
+import {Route, Routes} from 'react-router-dom';
 import "./assets/js/script";
 import Header from "./components/Header/Header";
 import AboutMe from './components/AboutMe/AboutMe';
@@ -11,14 +11,14 @@ import Footer from './components/Footer/Footer';
 import Signin from './components/Signin/Signin';
 import AOS from "aos";
 import "aos/dist/aos.css";
-import RootLayout from './layout/RootLayout';
+// import RootLayout from './layout/RootLayout';
 import Error404 from './components/Error404/Error404';
 import Register from './components/Register/Register';
 import CallbackPage from "./components/CallbackPage/callback-page";
 import Navbar from './components/Navbar/Navbar';
 import Email from './components/Email/Email';
 
-import {useState, useEffect, useRef} from 'react';
+import {useState} from 'react';
 
 AOS.init();
 

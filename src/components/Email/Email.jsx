@@ -1,5 +1,5 @@
 // EmailPopup.js
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect} from 'react';
 
 import './Email.css';
 
@@ -29,11 +29,11 @@ const emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
 const bodyRegex = /[a-zA-Z]+/; 
 const handleChange = (e) =>{
     const isValidEmail = (emailRegex.test(email));
-    const isntValidEmail = setnotValidEmail(!(isValidEmail));
+    setnotValidEmail(!(isValidEmail));
     const isValidSubject = (bodyRegex.test(subject));
-    const isntValidSubject = setnotValidSubject(!(isValidSubject));
+    setnotValidSubject(!(isValidSubject));
     const isValidMessage = (bodyRegex.test(message));
-    const isntValidMessage = setnotValidMessage(!(isValidMessage));
+    setnotValidMessage(!(isValidMessage));
   }
 
   const handleSubmit = (e) => {
